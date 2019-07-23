@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=EDGV Converter
+qgisMinimumVersion=2.0
+description=This plugin converts the data from EDGV-2.1.3 to EDGV-3.0.
+version=0.1
+author=IME_Carto_2019
+email=bryan.andrade.ime@gmail.com
+
+about=This plugin converts the data from EDGV-2.1.3 to EDGV-3.0.
+
+tracker=http://bugs
+repository=https://github.com/branbr2/PFC_Carto_19.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
